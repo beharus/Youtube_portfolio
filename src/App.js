@@ -10,6 +10,7 @@ import Contact_page from "./pages/Contact_page";
 function App() {
   return (
     <div className="bg-[#282C33]">
+      {/* react-router-dom */}
       <Navbar />
       <Routes>
         {/* HOME PAGE */}
