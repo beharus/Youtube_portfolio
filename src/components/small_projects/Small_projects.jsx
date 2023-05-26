@@ -3,6 +3,7 @@ import React from 'react'
 const Small_projects = () => {
     // we need to create some dates for this, you can do it by yourselves
     // we need about 8 projects, but you can add all yours :)
+    // in this video we will create about page
     let projects = [
         {
             languages: ["VUE", "CSS", "HTML"],
