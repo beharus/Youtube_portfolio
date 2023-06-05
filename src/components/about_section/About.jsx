@@ -5,7 +5,7 @@ const AboutSec = () => {
         {/* bottom */}
         <div className=" flex-wrap flex items-center justify-between">
           {/* left */}
-          <div className="md:w-[48%] w-full">
+          <div  data-aos = "fade-right" className="md:w-[48%] w-full">
             {/* title */}
             <div className=" mb-12">
               <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
@@ -41,7 +41,7 @@ const AboutSec = () => {
             </div>
           </div>
           {/* right */}
-          <div className=" mx-auto">
+          <div  data-aos = "fade-left" className=" mx-auto">
             <img className="mx-auto" src={require("./imgs/man.png")} alt="" />
           </div>
         </div>

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
-        <div className=" w-10/12 sm:w-8/12 mx-auto">
+        <div data-aos="fade-right" className=" w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
             Elias is a <span className="text-[#C778DD]">web designer</span> and{" "}
             <span className="text-[#C778DD]">front-end developer</span>
@@ -16,7 +16,7 @@ const About = () => {
             Contact me!!
           </button>
         </div>
-        <div className="mx-auto">
+        <div  data-aos="fade-left" data-aos-delay="400" className="mx-auto">
           <div className="">
             <img src={require("./imgs/man.png")} alt="" />
           </div>
@@ -28,7 +28,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" px-5 py-10">
+      <div  data-aos="fade-up" className=" px-5 py-10">
         <img className="mx-auto" src={require("./imgs/quote.png")} alt="" />
       </div>
     </>

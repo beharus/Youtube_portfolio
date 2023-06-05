@@ -32,7 +32,7 @@ const Projects = () => {
         {/* top */}
         <div className=" flex justify-between items-center gap-5">
           {/* left */}
-          <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
+          <div data-aos="fade-down" className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">
               <span className="text-[#C778DD]">#</span>projects
             </div>
