@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    Aos.init({duration:1000, delay:500});
+    Aos.init({ duration: 1000, delay: 500 });
   }, []);
   return (
     <div className="bg-[#282C33]">
